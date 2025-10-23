@@ -19,7 +19,7 @@ This is a web-based Vehicle Direction Management System designed to help manage 
 - JavaScript (ES6)  
 
 ## Author
-[Your Name]
+[emmanuel]
 
 ## License
 This project is open source and free to use.

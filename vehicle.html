@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced GPS Vehicle Direction</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgUtDzmIiWGd9CDt4ZMja34fGCJMpiEj4&callback=initMap" async defer></script>
+    <link rel="stylesheet" href="vehicle.css">
+</head>
+<body>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Control Panel -->
+    <div class="controls">
+        <h3>Vehicle Management</h3>
+        <button id="startBtn">Start Journey</button>
+        <button id="stopBtn">Stop Journey</button>
+        <p>Vehicle 1 Status</p>
+        <p>Fuel: <span id="fuel1">100%</span></p>
+        <p>Health: <span id="health1">100%</span></p>
+    </div>
+
+    <!-- Vehicle Stats -->
+    <div class="status">
+        <p id="position1">Position: (Lat: 0, Lng: 0)</p>
+        <p id="status">Status: Idle</p>
+    </div>
+
+    <script src="vehicle.js"></script>
+</body>
+</html>
